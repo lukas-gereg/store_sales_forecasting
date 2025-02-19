@@ -6,7 +6,7 @@ import string
 import numpy as np
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
-from assignment.utils.validation import Validation
+from utils.validation import Validation
 
 
 class Training:

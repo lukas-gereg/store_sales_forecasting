@@ -2,7 +2,7 @@ from collections.abc import Sequence
 
 from torch.utils.data import Subset
 
-from assignment.datasets.base_dataset import BaseDataset
+from datasets.base_dataset import BaseDataset
 
 
 class CustomSubset(Subset, BaseDataset):

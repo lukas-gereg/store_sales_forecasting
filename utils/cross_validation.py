@@ -15,10 +15,10 @@ from torch.utils.data import Subset
 import torch.utils.data as torch_utils
 from sklearn.model_selection import StratifiedKFold
 
-from assignment.models.base_model import BaseModel
-from assignment.utils.training import Training
-from assignment.utils.evaluation import Evaluation
-from assignment.datasets.custom_concat_dataset import CustomConcatDataset
+from models.base_model import BaseModel
+from utils.training import Training
+from utils.evaluation import Evaluation
+from datasets.custom_concat_dataset import CustomConcatDataset
 
 
 class CrossValidation:

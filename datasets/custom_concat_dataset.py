@@ -1,6 +1,6 @@
 from torch.utils.data import ConcatDataset
 
-from assignment.datasets.base_dataset import BaseDataset
+from datasets.base_dataset import BaseDataset
 
 
 class CustomConcatDataset(ConcatDataset, BaseDataset):

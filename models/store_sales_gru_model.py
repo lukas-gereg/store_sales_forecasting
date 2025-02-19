@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-from assignment.models.base_model import BaseModel
+from models.base_model import BaseModel
 
 
 class StoreSalesGRUModel(BaseModel):

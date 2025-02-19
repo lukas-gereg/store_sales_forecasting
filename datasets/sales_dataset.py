@@ -1,7 +1,7 @@
 import torch
 import pandas as pd
 
-from assignment.datasets.base_dataset import BaseDataset
+from datasets.base_dataset import BaseDataset
 
 
 class SalesDataSet(BaseDataset):

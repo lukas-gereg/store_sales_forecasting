@@ -4,12 +4,12 @@ import wandb
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-from assignment.utils.rmsle import RMSLE
-from assignment.datasets.sales_dataset import SalesDataSet
-from assignment.datasets.custom_subset import CustomSubset
-from assignment.data_preprocessing import DataPreprocessing
-from assignment.utils.cross_validation import CrossValidation
-from assignment.models.store_sales_gru_model import StoreSalesGRUModel
+from utils.rmsle import RMSLE
+from datasets.sales_dataset import SalesDataSet
+from datasets.custom_subset import CustomSubset
+from data_preprocessing import DataPreprocessing
+from utils.cross_validation import CrossValidation
+from models.store_sales_gru_model import StoreSalesGRUModel
 
 if __name__ == '__main__':
     debug = False
